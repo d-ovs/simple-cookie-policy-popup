@@ -3,7 +3,7 @@ const cookieButton = document.querySelector(".cookie-btn");
 
 cookieButton.addEventListener("click", () => {
   cookieContainer.classList.remove("active");
-  document.cookie = "cookieBannerDisplayed=true; expires=Tue, 19 Jan 2038 03:14:07 GMT";
+  document.cookie = "cookieBannerDisplayed=true";
 });
 
 setTimeout(() => {
